@@ -1,0 +1,15 @@
+{
+  "name": "sped-lesson-helper",
+  "private": true,
+  "type": "module",
+  "description": "특수교육 맞춤 수업 도우미 — 2022 개정 특수교육 교육과정에 맞춘 수업안 초안 앱",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/build.mjs && node tests/app.test.mjs"
+  },
+  "devDependencies": {
+    "dompurify": "3.1.6",
+    "marked": "12.0.2",
+    "playwright": "1.56.1"
+  }
+}
