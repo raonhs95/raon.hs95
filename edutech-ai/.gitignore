@@ -1,0 +1,20 @@
+# 계정 정보와 비밀 키
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# 비공개 작업 자료
+private/
+student-data/
+
+# 작업 환경과 임시 파일
+node_modules/
+.venv/
+__pycache__/
+.DS_Store
+Thumbs.db
+*.log
+~$*
